@@ -1,8 +1,7 @@
-// Initialize Lucide icons
+
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
 
-    // Add hover effect to the card
     const card = document.querySelector('.card');
     const cardGradient = document.querySelector('.card-gradient');
     const cardBlur = document.querySelector('.card-blur');
@@ -17,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         cardBlur.style.opacity = '0';
     });
 
-    // Add hover effects to project card
     const projectCard = document.querySelector('.project-card');
     const projectDescription = document.querySelector('.project-description');
 
